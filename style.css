@@ -1,0 +1,314 @@
+html{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 214, 197);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0% 10%;
+    height: 6rem;
+}
+
+/* Header */
+
+.header li{
+    display: inline;
+    padding-right: 4rem;
+    font-size: 1.5rem;
+    color: rgb(255, 120, 120);
+}
+
+.header .logo {
+    flex-grow: 1;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 116, 116);
+}
+
+/*banner*/
+
+.banner{
+    background: url("./ing/banner.jpg");
+    height: 660px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 255, 135);
+}
+
+.banner h1{
+    background-color: rgb(255, 162, 227);
+    width: 100px;
+    text-align: center;
+    margin-top: 70px;
+    border-top: 6px;
+}
+
+.banner h2{
+    background-color: rgb(255, 162, 227);
+}
+
+.mv{
+    color: rgb(168, 106, 69);
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    background-color: rgb(6, 4, 11);
+    height: 450px;
+  }
+   .video-info {
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 80px;
+    width: 300px;
+  }
+   .video-info h2 {
+    color: rgb(159, 134, 192);
+    width: 300px;
+  }
+   .video-info p {
+    color: white;
+    width: 300px;
+  }
+   .video-youtube {
+    margin: 20px;
+    position: relative;
+    width: 660px;
+  }
+  .video-youtube iframe {
+    width: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .video-thumbnails {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    width: 250px;
+  }
+  
+  .video-thumbnails img {
+    width: 178px;
+    height: 100px;
+    margin: 22px;
+    border: 3px solid rgb(224, 177, 203);
+    cursor: pointer;
+  }
+  
+  .video-thumbnails img:hover {
+    border: 3px solid rgb(159, 134, 192);
+    filter: brightness(1.5);
+  }
+
+  /* about */
+.about{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+  }
+
+  .aboutcards{
+   text-align: center;
+  }
+
+  .aboutcards .col{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .mempic{
+    width: 200px;
+  }
+
+  .aboutcards h3 {
+    color: rgb(190, 149, 196);
+    text-transform: uppercase;
+    font-style: italic;
+   }
+   
+   .aboutcards p {
+    font-size: 16px;
+    color: blue;
+    
+   }
+   .aboutcards a {
+    background-color: rgb(93, 66, 247);
+    color: rgb(255, 82, 203);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.03;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    /*border: 2px solid rgb(255, 97, 184);*/
+    border-radius: 8px;
+   }
+
+   .aboutcards a:hover {
+   background-image: linear-gradient(red, yellow);
+   background: radial-gradient(circle, rgb(255, 25, 224) 0%, rgb(95, 255, 108) 100%);
+
+   }
+   /*contact*/
+   .contact{
+    color: rgb(87, 198, 250);
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.15rem;
+   }
+
+   .contact-conainer {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(225, 176, 255);
+    padding: 20px;
+   }
+
+   .image-container{
+
+
+   }
+
+  .image-container img {
+    width: 600px;
+  
+   }
+
+   /*form*/
+  .form-container{
+    flex: 1;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(251, 255, 0);
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  form h2{
+    color: rgb(255, 255, 57);
+    font-style: italic;
+  }
+
+  /*Tex Input Fields*/
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea{
+    width: 80%;
+    padding: 3px;
+    margin-top: 5px;
+    border: 2px salmon;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    color: rgb(21, 75, 57);
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  textarea:focus {
+    outline: none;/*Remove the default bluder border */
+    border-color: rgb(253, 99, 99);
+  }
+
+/* gender */
+
+.gender {
+  flex-wrap: nowrap;
+}
+
+
+.gender[type="radio"] {
+  margin-left: 20px;
+  width: 10px; /* the size of buttons */
+  border: 1px solid rgb(35, 25, 66);
+}
+
+
+.gender input[type="radio"]:first-child {
+  margin-left: 55px;
+  /* first child means the male button */
+}
+
+
+input[type="radio"] {
+  margin-left: 10px;
+  margin-top: 8px;
+  appearance: none; /* Remove the default appearance of the radio button */
+ }
+ 
+ input[type="radio"]:before {
+  content: ''; /* Create a pseudo-element to style the radio button */
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1.5px solid rgb(228, 49, 147);
+ }
+ 
+ input[type="radio"]:checked:before {
+  border: 1px solid rgb(249, 252, 62); /* Set the border color */
+  background-color: rgb(255, 86, 213); /* Set the background color */ 
+ }
+
+ /* Submit */
+input[type="submit"] {
+  width: 30%;
+  padding: 8px;
+  background-color: rgb(13, 0, 129);
+  color:whitesmoke;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+  background-color: rgb(224, 177, 203);
+  color: rgb(35, 25, 66);
+  font-weight: 700;
+ }
+ 
+   /*map*/
+ .map-container {
+  filter: hue-rotate(3.142rad);
+ }
+  .map iframe {
+ 
+ }
+ 
+   
+   
